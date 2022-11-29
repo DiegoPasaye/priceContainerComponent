@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2? family=Karla&display=swap');
+html{
+    background-color: rgb(230,239,246);
+    font-family: 'Karla', sans-serif;
+}
+.container{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+.downContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -3%;
+}
+
+.firstContainer{
+    background-color: rgb(255,255,255);
+}
+.firstContainer h2{
+    margin-left: 5%;
+    color: rgb(73,176,170);
+    padding-top: 3%;
+}
+.firstContainer h5{
+    margin-left: 5%;
+    color: rgb(197,215,105);
+}
+.firstContainer p{
+    width: 90%;
+    margin-left: 5%;
+    color: rgb(185,188,197);
+    padding-bottom: 2%;
+}
+
+.secondContainer{
+    background-color: rgb(43,179,177);
+    color: white;
+}
+.secondContainer h3{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.secondContainer h2{
+    margin-left: 10%;
+}
+.priceInfo{
+    margin-left: 10%;
+}
+.registerButton{
+    width: 80%;
+    margin-left: 10%;
+    height: 15%;
+    color: white;
+    background-color: rgb(85, 218, 85);
+    border: none;
+}
+
+.price{
+    display: inline-block;
+}
+.total{
+    color: white;
+}
+.time{
+    color: white;
+    margin-left: 2%;
+    color: rgb(223, 219, 219);
+}
+
+.thirdContainer{
+    background-color: rgb(74,190,189);
+    color: rgb(223, 219, 219);
+}
+.thirdContainer p{
+    margin-left: 15%;
+}
+.thirdContainer h3{
+    margin-left: 15%;
+    color: white;
+}
