@@ -80,3 +80,88 @@ html{
     margin-left: 15%;
     color: white;
 }
+
+@media (max-width: 650px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-top: 20vw;
+        margin-left: 5%;
+    }
+    .firstContainer{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .downContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstContainer h2{
+        margin-left: 0;
+        padding-top: 0;
+        margin: 0;
+        margin-top: 3vw;
+        margin-left: 5%;
+    }
+    .firstContainer h5{
+        margin-left: 0;
+        margin: 0;
+        margin-top: 3vw;
+        margin-left: 5%;
+    }
+    .firstContainer p{
+        margin-left: 0;
+        padding-bottom: 0;
+        margin: 0;
+        margin-top: 3vw;
+        padding-bottom: 5vw;
+        margin-left: 5%;
+    }
+    .secondContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .secondContainer h3{
+        margin: 0;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .secondContainer h2{
+        margin-left: 0;
+        margin-left: 5%;
+    }
+    .priceInfo{
+        margin-left: 0;
+        margin: 0;
+        margin-left: 5%;
+        padding-bottom: 3vw;
+    }
+    .registerButton{
+        height: 7vw;
+        margin-bottom: 5%;
+    }
+    .thirdContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .thirdContainer h3{
+        margin-left: 5%;
+    }
+    .thirdContainer p{
+        margin: 0;
+        margin-left: 5%;
+        padding-top: 2%;
+    }
+    .last{
+        padding-bottom: 5%;
+    }
+}
+@media (max-width: 480px){
+    .container{
+        margin-top: 30vw;
+    }
+}
